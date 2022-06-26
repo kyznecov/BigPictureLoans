@@ -1,0 +1,104 @@
+/*=======================================ОБНУЛЕНИЕ=======================================*/
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+   color: inherit;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+.ibg {
+   position: relative;
+}
+/*---------------*/
+
+[class*=__container] {
+	max-width: 1000px;
+	margin: 0px auto;
+}
+
+.header {
+	background-image: url(/img/big-title.png);
+	min-height: 1150px;
+}
+.header__container {
+	display: flex;
+	min-height: 130px;
+	align-items: center;
+}
+.header__logo {
+	padding: 20px 10px 20px 10px;
+	min-height: 130px;
+	background: rgba(0, 0, 0, 0.75);
+	
+}
+.header__logo img{
+	
+}
+.header__menu {
+	flex: 1 1 auto;
+}
+
+.menu {
+	display: flex;
+	justify-content: flex-end;
+}
+.menu__list {
+	display: flex;
+	min-width: 500px;
+	padding: 20px;
+	justify-content: space-between;
+	background: rgba(0, 0, 0, 0.75);
+}
+.menu__item {}
+.menu__link {
+	color: aliceblue;
+}
+
+/*---------------------*/
+
+.header__form-wrapper {
+	display: flex;
+	margin-top: 150px;
+	text-align: center;
+	justify-items: center;
+	align-items: center;
+	justify-content: center;
+}
+.header__form {
+	background: whitesmoke;
+	width: 450px;
+	height: 700px;
+	padding: 50px 0;
+}
+.header__form-icon img{
+	width: 140px;
+}
+.header__form p{
+	font-size: 24px;
+	font-weight: bold;
+	color: rgb(95, 95, 95);
+	margin: 20px 0;
+}
