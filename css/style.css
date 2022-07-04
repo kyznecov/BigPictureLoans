@@ -43,7 +43,7 @@ h6 {
 	padding: 0px 0px;
 }
 .header {
-	background-image: url(img/big-title.png);
+	background-image: url(../img/big-title.png);
 	min-height: 1150px;
 	width: 100%;
 	top: 0;
@@ -340,7 +340,7 @@ h6 {
 .text-float img{
 	width: 400px;
 	float: left;
-	shape-outside: url(big-picture-loans-text.png);
+	shape-outside: url(../img/big-picture-loans-text.png);
 }
 
 /*------------MEDIA---------*/
